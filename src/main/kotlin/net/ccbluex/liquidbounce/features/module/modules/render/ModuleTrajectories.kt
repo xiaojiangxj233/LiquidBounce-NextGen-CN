@@ -54,7 +54,7 @@ import kotlin.math.sqrt
  * Allows you to see where projectile items will land.
  */
 
-object ModuleTrajectories : Module("Trajectories", Category.RENDER) {
+object ModuleTrajectories : Module("轨迹Trajectories", Category.RENDER) {
     const val MAX_SIMULATED_TICKS = 240
 
     fun shouldDrawTrajectory(player: PlayerEntity, item: Item): Boolean {

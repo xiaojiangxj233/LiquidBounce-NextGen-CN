@@ -41,7 +41,7 @@ import kotlin.concurrent.thread
 /**
  * Transfers donator capes from one account to another.
  */
-object ModuleCapeTransfer : Module("CapeTransfer", Category.MISC) {
+object ModuleCapeTransfer : Module("抄袭披风CapeTransfer", Category.MISC) {
 
     init {
         // Hooks configurable of cape service into the module

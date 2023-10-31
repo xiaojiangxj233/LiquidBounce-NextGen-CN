@@ -33,7 +33,7 @@ import net.ccbluex.liquidbounce.utils.entity.strafe
 import net.ccbluex.liquidbounce.utils.movement.zeroXZ
 import net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket
 
-object ModuleLongJump : Module("LongJump", Category.MOVEMENT) {
+object ModuleLongJump : Module("跳远远LongJump", Category.MOVEMENT) {
 
     val mode = choices(
         "Mode", NCP, arrayOf(

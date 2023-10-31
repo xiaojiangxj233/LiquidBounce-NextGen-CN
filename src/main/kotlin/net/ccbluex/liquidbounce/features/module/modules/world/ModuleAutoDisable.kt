@@ -36,7 +36,7 @@ import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
  *
  * Automatically disables modules, when special event happens.
  */
-object ModuleAutoDisable : Module("AutoDisable", Category.WORLD) {
+object ModuleAutoDisable : Module("自动关闭AutoDisable", Category.WORLD) {
     val listOfModules = arrayListOf<Module>(ModuleFly, ModuleSpeed, ModuleNoClip, ModuleKillAura)
     private val onFlag by boolean("OnFlag", false)
     private val onDeath by boolean("OnDeath", false)

@@ -41,7 +41,7 @@ import net.minecraft.util.math.Box
  * Allows you to see selected blocks through walls.
  */
 
-object ModuleBlockESP : Module("BlockESP", Category.RENDER) {
+object ModuleBlockESP : Module("方块ESP|BlockESP", Category.RENDER) {
 
     private val modes = choices("Mode", Box, arrayOf(Box))
 

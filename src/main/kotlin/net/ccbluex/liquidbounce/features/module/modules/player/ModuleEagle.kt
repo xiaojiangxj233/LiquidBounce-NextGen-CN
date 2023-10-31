@@ -29,7 +29,7 @@ import net.ccbluex.liquidbounce.utils.entity.isCloseToEdge
  *
  * Legit trick to build faster.
  */
-object ModuleEagle : Module("Eagle", Category.PLAYER) {
+object ModuleEagle : Module("自动蹲下Eagle", Category.PLAYER) {
 
     val edgeDistance by float("EagleEdgeDistance", 0.01f, 0.01f..1.3f)
 

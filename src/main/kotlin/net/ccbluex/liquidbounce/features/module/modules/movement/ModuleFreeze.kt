@@ -32,7 +32,7 @@ import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
  *
  * Allows you to freeze yourself without the server knowing.
  */
-object ModuleFreeze : Module("Freeze", Category.MOVEMENT) {
+object ModuleFreeze : Module("冻结自己Freeze", Category.MOVEMENT) {
 
     private val disableOnFlag by boolean("DisableOnFlag", true)
 

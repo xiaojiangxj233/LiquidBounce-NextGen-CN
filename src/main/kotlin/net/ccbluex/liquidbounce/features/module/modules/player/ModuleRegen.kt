@@ -33,7 +33,7 @@ import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
  * Regenerates your health much faster.
  */
 
-object ModuleRegen : Module("Regen", Category.PLAYER) {
+object ModuleRegen : Module("恢复Regen", Category.PLAYER) {
     private val health by int("Health", 18, 0..20)
     private val speed by int("Speed", 100, 1..100)
     private val timer by float("Timer", 0.5f, 0.1f..10f)

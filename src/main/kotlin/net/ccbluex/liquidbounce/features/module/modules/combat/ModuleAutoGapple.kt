@@ -34,7 +34,7 @@ import net.minecraft.screen.slot.SlotActionType
  * Automatically eats apples whenever your health is low.
  */
 
-object ModuleAutoGapple : Module("AutoGapple", Category.COMBAT) {
+object ModuleAutoGapple : Module("自动吃金苹果(AutoGapple)", Category.COMBAT) {
 
     private val health by int("Health", 15, 1..20)
     private val inventoryConstraints = tree(InventoryConstraintsConfigurable())

@@ -42,7 +42,7 @@ import net.minecraft.util.math.Vec3i
  * Detects and displays safe spots for Crystal PvP.
  */
 
-object ModuleHoleESP : Module("HoleESP", Category.RENDER) {
+object ModuleHoleESP : Module("洞ESP|HoleESP", Category.RENDER) {
 
     private val modes = choices("Mode", Box, arrayOf(Box))
 

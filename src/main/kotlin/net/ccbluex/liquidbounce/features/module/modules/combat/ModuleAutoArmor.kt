@@ -34,7 +34,7 @@ import net.minecraft.screen.slot.SlotActionType
  *
  * Automatically put on the best armor.
  */
-object ModuleAutoArmor : Module("AutoArmor", Category.COMBAT) {
+object ModuleAutoArmor : Module("自动穿盔甲(AutoArmor)", Category.COMBAT) {
     private val inventoryConstraints = tree(InventoryConstraintsConfigurable())
     private val hotbar by boolean("Hotbar", true)
 

@@ -29,7 +29,7 @@ import net.minecraft.entity.LivingEntity
  * Prevents KillAura from attacking teammates.
  */
 
-object ModuleTeams : Module("Teams", Category.MISC) {
+object ModuleTeams : Module("队伍Teams", Category.MISC) {
 
     private val scoreboard by boolean("ScoreboardTeam", true)
     private val color by boolean("Color", true)

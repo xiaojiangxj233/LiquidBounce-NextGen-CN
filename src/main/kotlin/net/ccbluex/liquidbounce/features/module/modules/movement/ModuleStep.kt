@@ -32,7 +32,7 @@ import net.ccbluex.liquidbounce.features.module.Module
  * Allows you to step up blocks.
  */
 
-object ModuleStep : Module("Step", Category.MOVEMENT) {
+object ModuleStep : Module("步伐Step", Category.MOVEMENT) {
 
     var modes = choices("Mode", Instant, arrayOf(Instant, Legit))
 

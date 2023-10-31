@@ -26,7 +26,7 @@ import net.ccbluex.liquidbounce.features.module.Module
  *
  * Automatically adjusts breaking speed when in negatively affecting situations.
  */
-object ModuleNoSlowBreak : Module("NoSlowBreak", Category.WORLD) {
+object ModuleNoSlowBreak : Module("无缓慢挖掘NoSlowBreak", Category.WORLD) {
     val miningFatigue by boolean("MiningFatigue", true)
     val onAir by boolean("OnAir", true)
     val water by boolean("Water", false)

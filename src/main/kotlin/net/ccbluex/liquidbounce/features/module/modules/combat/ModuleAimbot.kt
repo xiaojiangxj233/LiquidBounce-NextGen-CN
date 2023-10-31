@@ -38,7 +38,7 @@ import net.ccbluex.liquidbounce.utils.entity.eyes
  *
  * Automatically faces selected entities around you.
  */
-object ModuleAimbot : Module("自瞄", Category.COMBAT) {
+object ModuleAimbot : Module("自瞄(Aimbot)", Category.COMBAT) {
     private val range by float("Range", 4.2f, 1f..8f)
 
     private val targetTracker = tree(TargetTracker(PriorityEnum.DIRECTION))

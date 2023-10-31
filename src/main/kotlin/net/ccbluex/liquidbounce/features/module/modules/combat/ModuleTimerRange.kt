@@ -17,7 +17,7 @@ import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
  * Automatically speeds up, when you are near enemy.
  */
 
-object ModuleTimerRange : Module("TimerRange", Category.COMBAT) {
+object ModuleTimerRange : Module("自动Timer(TimerRange)", Category.COMBAT) {
 
     private val timerBalanceLimit by float("TimerBalanceLimit", 20f, 0f..50f)
     private val normalSpeed by float("NormalSpeed", 0.9F, 0.1F..10F)

@@ -42,7 +42,7 @@ import kotlin.random.Random
  * Prevents you from being kicked for AFK.
  */
 
-object ModuleAntiAFK : Module("AntiAFK", Category.PLAYER) {
+object ModuleAntiAFK : Module("反挂机踢出AntiAFK", Category.PLAYER) {
 
     private val modes = choices(
         "Mode", RandomMode, arrayOf(

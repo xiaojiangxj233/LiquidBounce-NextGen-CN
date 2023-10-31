@@ -27,4 +27,4 @@ import net.ccbluex.liquidbounce.features.module.Module
  * Disables the view bobbing effect.
  */
 
-object ModuleNoBob : Module("NoBob", Category.RENDER)
+object ModuleNoBob : Module("无视角抖动NoBob", Category.RENDER)

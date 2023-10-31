@@ -34,7 +34,7 @@ import net.minecraft.block.SlimeBlock
  * Allows you to bounce higher on bouncy blocks.
  */
 
-object ModuleBlockBounce : Module("BlockBounce", Category.MOVEMENT) {
+object ModuleBlockBounce : Module("粘液块跳高BlockBounce", Category.MOVEMENT) {
 
     private val motion by float("Motion", 0.42f, 0.2f..2f)
 

@@ -34,7 +34,7 @@ import kotlin.math.abs
  * Automatically setbacks you after falling a certain distance.
  */
 
-object ModuleBugUp : Module("BugUp", Category.MOVEMENT) {
+object ModuleBugUp : Module("防掉落BugUp", Category.MOVEMENT) {
     private val maxFallDistance by int("MaxFallDistance", 10, 2..255)
     private val maxDistanceWithoutGround by float("MaxDistanceToSetback", 2.5f, 1f..30f)
     private val indicator by boolean("Indicator", true)

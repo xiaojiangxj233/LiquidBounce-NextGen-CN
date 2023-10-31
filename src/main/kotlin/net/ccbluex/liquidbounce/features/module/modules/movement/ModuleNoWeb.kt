@@ -31,7 +31,7 @@ import net.ccbluex.liquidbounce.utils.client.notification
  *
  * Disables web slowdown.
  */
-object ModuleNoWeb : Module("NoWeb", Category.MOVEMENT) {
+object ModuleNoWeb : Module("无蜘蛛网减速NoWeb", Category.MOVEMENT) {
 
     val modes = choices("Mode", Air) {
         arrayOf(

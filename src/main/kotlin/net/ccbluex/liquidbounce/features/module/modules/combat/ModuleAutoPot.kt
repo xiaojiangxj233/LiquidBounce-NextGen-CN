@@ -40,7 +40,7 @@ import org.apache.commons.lang3.RandomUtils
  * Automatically throws healing potions whenever your health is low.
  */
 
-object ModuleAutoPot : Module("AutoPot", Category.COMBAT) {
+object ModuleAutoPot : Module("自动喷药水AutoPot", Category.COMBAT) {
     private val delay by int("Delay", 10, 10..20)
     private val health by int("Health", 18, 1..20)
     private val tillGroundDistance by float("TillGroundDistance", 2f, 1f..5f)

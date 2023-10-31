@@ -41,7 +41,7 @@ import java.awt.Color
  * Allows you to see server-sided rotations.
  */
 
-object ModuleDebug : Module("Debug", Category.RENDER) {
+object ModuleDebug : Module("调试Debug", Category.RENDER) {
 
     object RenderSimulatedPlayer: ToggleableConfigurable(this, "SimulatedPlayer", false) {
         private val ticksToPredict by int("TicksToPredict", 20, 5..100)

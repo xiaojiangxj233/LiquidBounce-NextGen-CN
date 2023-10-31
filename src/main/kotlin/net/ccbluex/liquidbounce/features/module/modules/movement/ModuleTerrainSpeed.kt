@@ -40,7 +40,7 @@ import net.minecraft.util.math.Direction
  *
  * Move faster on specific surfaces.
  */
-object ModuleTerrainSpeed : Module("TerrainSpeed", Category.MOVEMENT) {
+object ModuleTerrainSpeed : Module("无方块减速TerrainSpeed", Category.MOVEMENT) {
 
     /**
      * Fast Climb allows you to climb up ladder-related blocks faster

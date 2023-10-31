@@ -27,4 +27,4 @@ import net.ccbluex.liquidbounce.features.module.Module
  * Disables the hurt cam effect when getting hurt.
  */
 
-object ModuleNoHurtCam : Module("NoHurtCam", Category.RENDER)
+object ModuleNoHurtCam : Module("无受伤抖动NoHurtCam", Category.RENDER)

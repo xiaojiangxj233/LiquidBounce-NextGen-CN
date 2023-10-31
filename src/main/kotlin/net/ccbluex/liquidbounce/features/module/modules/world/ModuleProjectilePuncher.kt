@@ -45,7 +45,7 @@ import net.minecraft.util.Hand
  * Shoots back incoming projectiles around you.
  */
 
-object ModuleProjectilePuncher : Module("ProjectilePuncher", Category.WORLD) {
+object ModuleProjectilePuncher : Module("抛射打孔器ProjectilePuncher", Category.WORLD) {
 
     private val cps by intRange("CPS", 5..8, 1..20)
     private val swing by boolean("Swing", true)

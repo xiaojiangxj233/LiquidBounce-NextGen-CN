@@ -55,7 +55,7 @@ import kotlin.math.*
  * Automatically shoots with your bow when it's fully charged
  *  + and make it possible to shoot faster
  */
-object ModuleAutoBow : Module("AutoBow", Category.COMBAT) {
+object ModuleAutoBow : Module("自动使用弓射箭(AutoBow)", Category.COMBAT) {
     const val ACCELERATION = -0.006
     const val REAL_ACCELERATION = -0.005
 

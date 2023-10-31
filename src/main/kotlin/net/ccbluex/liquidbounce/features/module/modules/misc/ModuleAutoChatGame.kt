@@ -35,7 +35,7 @@ import kotlin.concurrent.thread
 /**
  * Automatically solves chat game riddles.
  */
-object ModuleAutoChatGame : Module("AutoChatGame", Category.MISC) {
+object ModuleAutoChatGame : Module("ChatGPT机器人AutoChatGame", Category.MISC) {
 
     private val openAiKey by text("OpenAiKey", "")
         .doNotInclude() // Keeps API key private

@@ -28,7 +28,7 @@ import net.ccbluex.liquidbounce.utils.client.pressedOnKeyboard
  *
  * Automatically makes you walk.
  */
-object ModuleAutoWalk : Module("AutoWalk", Category.PLAYER) {
+object ModuleAutoWalk : Module("自动走路AutoWalk", Category.PLAYER) {
 
     val repeatable = repeatable {
         mc.options.forwardKey.isPressed = true

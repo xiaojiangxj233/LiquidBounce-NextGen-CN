@@ -36,7 +36,7 @@ import net.minecraft.util.shape.VoxelShapes
  *
  * Allows you to walk on water like jesus. Also known as Jesus module.
  */
-object ModuleLiquidWalk : Module("LiquidWalk", Category.MOVEMENT) {
+object ModuleLiquidWalk : Module("液体行走LiquidWalk", Category.MOVEMENT) {
 
     private val modes = choices("Mode", Vanilla, arrayOf(Vanilla, NoCheatPlus))
 

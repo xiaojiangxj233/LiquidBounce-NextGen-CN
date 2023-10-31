@@ -32,7 +32,7 @@ import net.minecraft.util.shape.VoxelShapes
  *
  * Prevents you walking into blocks that might be malicious for you.
  */
-object ModuleAvoidHazards : Module("AvoidHazards", Category.MOVEMENT) {
+object ModuleAvoidHazards : Module("防走错voidHazards", Category.MOVEMENT) {
 
     val cacti by boolean("Cacti", true)
     val berryBush by boolean("BerryBush", true)

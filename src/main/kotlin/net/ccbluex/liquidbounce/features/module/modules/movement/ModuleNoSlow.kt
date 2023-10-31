@@ -43,7 +43,7 @@ import net.minecraft.util.math.Direction
  * Cancels slowness effects caused by blocks and using items.
  */
 
-object ModuleNoSlow : Module("NoSlow", Category.MOVEMENT) {
+object ModuleNoSlow : Module("无缓慢NoSlow", Category.MOVEMENT) {
 
     private object Block : ToggleableConfigurable(this, "Blocking", true) {
 

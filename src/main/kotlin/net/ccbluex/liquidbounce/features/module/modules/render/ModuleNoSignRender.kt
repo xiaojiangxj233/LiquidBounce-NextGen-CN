@@ -27,4 +27,4 @@ import net.ccbluex.liquidbounce.features.module.Module
  * Prevents the sign text from being rendered.
  */
 
-object ModuleNoSignRender : Module("NoSignRender", Category.RENDER)
+object ModuleNoSignRender : Module("告示牌文本不渲染NoSignRender", Category.RENDER)

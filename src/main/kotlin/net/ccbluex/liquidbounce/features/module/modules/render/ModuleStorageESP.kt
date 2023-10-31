@@ -40,7 +40,7 @@ import java.awt.Color
  * Allows you to see chests, dispensers, etc. through walls.
  */
 
-object ModuleStorageESP : Module("StorageESP", Category.RENDER) {
+object ModuleStorageESP : Module("容器ESP|StorageESP", Category.RENDER) {
 //    private val modeValue = Choi("Mode", arrayOf("Box", "OtherBox", "Outline", "ShaderOutline", "ShaderGlow", "2D", "WireFrame"), "Outline")
 
     private val modes = choices("Mode", Box, arrayOf(Box))

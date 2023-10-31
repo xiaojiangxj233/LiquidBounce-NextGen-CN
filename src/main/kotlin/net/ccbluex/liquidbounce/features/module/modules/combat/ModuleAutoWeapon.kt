@@ -38,7 +38,7 @@ import net.minecraft.item.*
  *
  * Automatically selects the best weapon in your hotbar
  */
-object ModuleAutoWeapon : Module("AutoWeapon", Category.COMBAT) {
+object ModuleAutoWeapon : Module("自动切换武器AutoWeapon", Category.COMBAT) {
 
     enum class PreferredWeapon(override val choiceName: String) : NamedChoice {
         ANY("Any"), AXE("Axe"), PICKAXE("Pickaxe"), SHOVEL("Shovel"), SWORD("Sword"), TRIDENT("Trident");

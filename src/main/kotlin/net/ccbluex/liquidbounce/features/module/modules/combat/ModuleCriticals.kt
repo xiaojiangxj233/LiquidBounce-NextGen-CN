@@ -42,7 +42,7 @@ import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
  *
  * Automatically crits every time you attack someone.
  */
-object ModuleCriticals : Module("Criticals", Category.COMBAT) {
+object ModuleCriticals : Module("刀爆Criticals", Category.COMBAT) {
 
     val modes = choices("Mode", PacketCrit) {
         arrayOf(

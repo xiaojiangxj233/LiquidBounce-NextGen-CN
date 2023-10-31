@@ -40,7 +40,7 @@ import kotlin.math.ceil
  * Automatically steals all items from a chest.
  */
 
-object ModuleChestStealer : Module("ChestStealer", Category.PLAYER) {
+object ModuleChestStealer : Module("自动拿箱ChestStealer", Category.PLAYER) {
 
     var delay by intRange("Delay", 50..200, 0..2000)
     var closeDelay by intRange("CloseDelay", 1..10, 0..200)

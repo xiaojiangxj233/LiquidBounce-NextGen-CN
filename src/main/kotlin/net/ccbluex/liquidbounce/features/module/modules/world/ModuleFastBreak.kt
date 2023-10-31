@@ -27,7 +27,7 @@ import net.ccbluex.liquidbounce.features.module.Module
  *
  * Allows you to break blocks faster.
  */
-object ModuleFastBreak : Module("FastBreak", Category.WORLD) {
+object ModuleFastBreak : Module("快速挖掘FastBreak", Category.WORLD) {
 
     private val breakDamage by float("BreakDamage", 0.8f, 0.1f..1f)
 

@@ -38,7 +38,7 @@ import net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
  * Modifies the amount of velocity you take.
  */
 
-object ModuleVelocity : Module("Velocity", Category.COMBAT) {
+object ModuleVelocity : Module("反击退Velocity", Category.COMBAT) {
 
     val modes = choices("Mode", Modify) {
         arrayOf(

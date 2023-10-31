@@ -36,7 +36,7 @@ import net.minecraft.util.Hand
  * Automatically eats soup whenever your health is low.
  */
 
-object ModuleAutoSoup : Module("AutoSoup", Category.COMBAT) {
+object ModuleAutoSoup : Module("自动喝汤AutoSoup", Category.COMBAT) {
 
     private val health by int("Health", 15, 1..40)
     private val bowl by boolean("DropAfterUse", true)

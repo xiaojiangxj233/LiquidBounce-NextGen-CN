@@ -32,7 +32,7 @@ import net.ccbluex.liquidbounce.utils.item.isNothing
  * Automatically chooses the best tool in your inventory to mine a block.
  */
 
-object ModuleAutoTool : Module("AutoTool", Category.WORLD) {
+object ModuleAutoTool : Module("自动工具AutoTool", Category.WORLD) {
 
     // Ignore items with low durability
     private val ignoreDurability by boolean("IgnoreDurability", false)

@@ -29,7 +29,7 @@ import net.minecraft.util.math.MathHelper
  * Sprints automatically.
  */
 
-object ModuleSprint : Module("Sprint", Category.MOVEMENT) {
+object ModuleSprint : Module("自动疾跑Sprint", Category.MOVEMENT) {
 
     val allDirections by boolean("AllDirections", false)
     val ignoreBlindness by boolean("IgnoreBlindness", false)

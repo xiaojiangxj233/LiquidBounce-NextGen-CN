@@ -34,7 +34,7 @@ import kotlin.random.Random
  *
  * Increases knockback dealt to other entities.
  */
-object ModuleSuperKnockback : Module("SuperKnockback", Category.COMBAT) {
+object ModuleSuperKnockback : Module("更远的击退SuperKnockback", Category.COMBAT) {
 
     val modes = choices("Mode", Packet, arrayOf(Packet, SprintTap, WTap))
     val hurtTime by int("HurtTime", 10, 0..10)

@@ -46,7 +46,7 @@ import kotlin.math.roundToInt
  * Makes player name tags more visible and adds useful information.
  */
 
-object ModuleNametags : Module("Nametags", Category.RENDER) {
+object ModuleNametags : Module("名称标签Nametags", Category.RENDER) {
 
     private val healthValue by boolean("Health", true)
     private val pingValue by boolean("Ping", true)

@@ -42,7 +42,7 @@ import net.minecraft.util.math.Vec3i
  *
  * Automatically sets targets around you on fire.
  */
-object ModuleIgnite : Module("Ignite", Category.WORLD) {
+object ModuleIgnite : Module("点燃Ignite", Category.WORLD) {
 
     var delay by int("Delay", 20, 0..400)
 

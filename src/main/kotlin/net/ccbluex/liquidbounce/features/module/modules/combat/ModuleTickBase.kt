@@ -15,7 +15,7 @@ import kotlin.math.min
  * Calls tick function to speed up, when needed
  */
 
-object ModuleTickBase : Module("TickBase", Category.COMBAT) {
+object ModuleTickBase : Module("滴答滴答TickBase", Category.COMBAT) {
 
     private val distanceToWork by floatRange("DistanceToWork", 3f..4f, 0f..10f)
     private val balanceRecoveryIncrement by float("BalanceRecoverIncrement", 1f, 0f..2f)
