@@ -96,6 +96,13 @@ object ModuleInventoryCleaner : Module("背包清理InventoryCleaner", Category.
             if (tryRunActionInInventory { executeAction(hotbarSwap.from, hotbarSwap.to, SlotActionType.SWAP) }) {
                 hasClickedOnce = true
 
+                cleanupPlan.remapSlots(
+                    hashMapOf(
+                        Pair(hotbarSwap.from, hotbarSwap.to),
+                        Pair(hotbarSwap.to, hotbarSwap.from)
+                    )
+                )
+
                 wait(inventoryConstraints.delay.random()) { inventoryConstraints.violatesNoMove }
             }
         }
