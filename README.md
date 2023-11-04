@@ -14,7 +14,7 @@ LiquidBounce是一个使用Fabric API的免费开源基于mixin注入的Minecraf
 
 ## 问题
 
-如果您发现任何错误或遗漏的功能，您可以通过[此处](https://github.com/CCBlueX/LiquidBounce/issues)报告给我们。
+如果您发现任何错误或遗漏的功能，您可以通过[此处](https://github.com/xiaojiangxj233/LiquidBounce-NextGen-CN/issues)报告给我们。
 
 ## 许可证
 
