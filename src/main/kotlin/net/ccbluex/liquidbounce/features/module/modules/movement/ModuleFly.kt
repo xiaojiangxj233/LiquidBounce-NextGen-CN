@@ -54,7 +54,7 @@ import kotlin.math.sin
  * Allows you to fly.
  */
 
-object ModuleFly : Module("飞飞飞芜湖", Category.MOVEMENT) {
+object ModuleFly : Module("飞飞飞芜湖Fly", Category.MOVEMENT) {
 
     private val modes = choices(
         "Mode", Vanilla, arrayOf(

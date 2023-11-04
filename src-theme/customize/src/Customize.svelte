@@ -5,8 +5,8 @@
 <main>
     <div class="scale">
         <div class="wrapper">
-            <h1>Better luck next time. This screen is empty!</h1>
-
+            <h1>祝你下次好运。这个屏幕是空的！</h1>
+            <br>
             <button onclick="pages.open('title', screen)">Back</button>
         </div>
     </div>

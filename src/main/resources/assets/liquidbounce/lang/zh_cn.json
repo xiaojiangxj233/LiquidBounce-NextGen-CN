@@ -193,6 +193,7 @@
   "liquidbounce.module.autoBreak.description": "自动破坏你面前的方块。",
   "liquidbounce.module.autoRespawn.description": "在死后自动重生。",
   "liquidbounce.module.autoWalk.description": "自动向前移动。",
+  "liquidbounce.module.iqBoost.decription": "IQBoost",
   "liquidbounce.module.blink.description": "允许你看起来像是从一个地方闪现到另外一个地方。",
   "liquidbounce.module.eagle.description": "自动在方块边缘潜行 (别名. FastBridge)。",
   "liquidbounce.module.noFall.description": "不会受到跌落伤害。",

@@ -35,6 +35,7 @@ import net.ccbluex.liquidbounce.features.module.modules.player.invcleaner.Module
 import net.ccbluex.liquidbounce.features.module.modules.render.*
 import net.ccbluex.liquidbounce.features.module.modules.render.minimap.ModuleMinimap
 import net.ccbluex.liquidbounce.features.module.modules.world.*
+import net.ccbluex.liquidbounce.features.module.modules.cn.*
 import net.ccbluex.liquidbounce.features.module.modules.world.crystalAura.ModuleCrystalAura
 import net.ccbluex.liquidbounce.features.module.modules.world.scaffold.ModuleScaffold
 import org.lwjgl.glfw.GLFW
@@ -224,7 +225,10 @@ object ModuleManager : Listenable, Iterable<Module> by modules {
             ModuleProjectilePuncher,
             ModuleScaffold,
             ModuleTimer,
-            ModuleNuker
+            ModuleNuker,
+
+            // CN
+            ModuleIQBoost
         )
 
         builtin.apply {

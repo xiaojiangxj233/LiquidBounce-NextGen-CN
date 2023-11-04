@@ -12,6 +12,7 @@
         "World",
         "Misc",
         "Fun",
+        "CN",
     ];
     const modules = [];
 

@@ -46,7 +46,7 @@
     }
 
     function browseGitHub() {
-        utils.browse("https://github.com/CCBlueX");
+        utils.browse("https://github.com/xiaojiangxj233/LiquidBounce-NextGen-CN");
     }
 
     function browseGuilded() {
@@ -86,17 +86,17 @@
             <Account username={username} location={location} faceUrl={faceUrl} accountType={accountType}
                      on:proxyManagerClick={openProxyManager} on:altManagerClick={openAltManager}/>
             <MainButtons>
-                <MainButton text="Singleplayer" icon="singleplayer" on:click={openSingleplayer}/>
-                <MainButton text="Multiplayer" icon="multiplayer" on:click={openMultiplayer} let:hovered>
+                <MainButton text="单人游戏" icon="singleplayer" on:click={openSingleplayer}/>
+                <MainButton text="多人游戏" icon="multiplayer" on:click={openMultiplayer} let:hovered>
                     <ChildButton text="Realms" icon="realms" {hovered} on:click={openRealms}/>
                 </MainButton>
-                <MainButton text="Customize" icon="customize" on:click={openCustomize}/>
-                <MainButton text="Options" icon="options" on:click={openOptions}/>
+                <MainButton text="自定义界面" icon="customize" on:click={openCustomize}/>
+                <MainButton text="选项" icon="options" on:click={openOptions}/>
             </MainButtons>
 
             <ButtonWrapperLeft>
-                <IconTextButton text="Change Background" icon="change-background"/>
-                <IconTextButton text="Exit" icon="exit" on:click={scheduleStop}/>
+                <IconTextButton text="设置背景图片" icon="change-background"/>
+                <IconTextButton text="退出" icon="exit" on:click={scheduleStop}/>
             </ButtonWrapperLeft>
 
             <ButtonWrapperRight>

@@ -279,6 +279,7 @@
   "liquidbounce.module.autoRespawn.description": "Automatically respawns you after dying.",
   "liquidbounce.module.autoWalk.description": "Automatically makes you walk in the direction you are facing.",
   "liquidbounce.module.blink.description": "Makes it look as if you were teleporting to other players.",
+  "liquidbounce.module.iqBoost": "IQBoost",
   "liquidbounce.module.eagle.description": "Automatically sneaks at the edge of a block (aka. FastBridge).",
   "liquidbounce.module.noFall.description": "Protects you from taking fall damage.",
   "liquidbounce.module.antiBlind.description": "Protects you from potentially annoying screen effects that block your view.",

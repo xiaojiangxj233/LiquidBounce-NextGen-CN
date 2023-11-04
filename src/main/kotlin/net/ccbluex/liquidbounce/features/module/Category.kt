@@ -28,7 +28,8 @@ enum class Category(val readableName: String) {
     WORLD("World"),
     MISC("Misc"),
     EXPLOIT("Exploit"),
-    FUN("Fun");
+    FUN("Fun"),
+    CN("CN");
 
     companion object {
         /**

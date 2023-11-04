@@ -37,7 +37,7 @@ LiquidBounce是一个使用Fabric API的免费开源基于mixin注入的Minecraf
 
 LiquidBounce使用Gradle，为确保其正确安装，您可以查看[Gradle的网站](https://gradle.org/install/)。还需要安装Node.js和Python以供我们的[主题](https://github.com/CCBlueX/LiquidBounce/tree/nextgen/src-theme)使用。
 
-1. 使用 `git clone --recurse-submodules https://github.com/CCBlueX/LiquidBounce` 克隆存储库。
+1. 使用 `git clone --recurse-submodules https://github.com/xiaojiangxj233/LiquidBounce-NextGen-CN` 克隆存储库。
 2. 进入本地存储库。
 3. 运行 `./gradlew genSources`。
 4. 在首选的IDE中将文件夹打开为Gradle项目。
@@ -53,6 +53,3 @@ Mixins可用于在加载类之前在运行时修改类。LiquidBounce使用它�
 
 我们欢迎贡献。因此，如果您想支持我们，请随时更改LiquidBounce的源代码并提交拉取请求。
 
-## 统计信息
-
-![Alt](https://repobeats.axiom.co/api/embed/ad3a9161793c4dfe50934cd4442d25dc3ca93128.svg "Repobeats分析图像")

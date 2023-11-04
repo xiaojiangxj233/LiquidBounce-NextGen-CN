@@ -32,7 +32,7 @@ echo location of your Java installation.
 goto fail
 
 :findJavaFromJavaHome
-set JAVA_HOME=%JAVA_HOME:"=%
+set JAVA_HOME=D:/jdk17
 set JAVA_EXE=%JAVA_HOME%/bin/java.exe
 
 if exist "%JAVA_EXE%" goto init
@@ -76,6 +76,7 @@ if "%ERRORLEVEL%"=="0" goto mainEnd
 rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
 rem the _cmd.exe /c_ return code!
 if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
+pause
 exit /b 1
 
 :mainEnd

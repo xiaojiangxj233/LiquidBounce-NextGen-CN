@@ -32,7 +32,7 @@ import net.minecraft.entity.MovementType
  *
  * Strafe into different directions while you're midair.
  */
-object ModuleStrafe : Module("乱飞Strafe", Category.MOVEMENT) {
+object ModuleStrafe : Module("空中移动Strafe", Category.MOVEMENT) {
 
     private var strength by float("Strength", 1f, 0.1f..1f)
 
