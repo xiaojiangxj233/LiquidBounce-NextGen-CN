@@ -2,16 +2,17 @@
   "schemaVersion": 1,
   "id": "liquidbounce",
   "version": "${version}",
-  "name": "LiquidBounce",
-  "description": "A free mixin-based injection hacked-client for Minecraft using the Fabric modding toolchain.",
+  "name": "LiquidBounce-NextGen-CN",
+  "description": "使用Fabric模块工具链的免费基于混合注入的Minecraft作弊客户端。",
   "authors": [
-    "CCBlueX"
+    "CCBlueX",
+    "xiaojiang233"
   ],
   "contact": {
     "homepage": "https://liquidbounce.net/",
-    "sources": "https://github.com/CCBlueX/LiquidBounce/",
-    "issues": "https://github.com/CCBlueX/LiquidBounce/issues",
-    "email": "support@liquidbounce.net"
+    "sources": "https://github.com/xiaojiangxj233/LiquidBounce-NextGen-CN",
+    "issues": "https://github.com/xiaojiangxj233/LiquidBounce-NextGen-CN/issues",
+    "email": "xiaojiang233@outlook.com"
   },
   "license": "GNU General Public License v3.0",
   "icon": "assets/liquidbounce/icon_64x64.png",

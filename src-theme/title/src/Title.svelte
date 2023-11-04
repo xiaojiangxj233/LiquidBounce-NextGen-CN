@@ -64,6 +64,9 @@
     function browseWebsite() {
         utils.browse("https://liquidbounce.net");
     }
+    function browseBilibili() {
+        utils.browse("https://space.bilibili.com/533406686");
+    }
 
     const username = client.getSessionService().getUsername();
     const faceUrl = client.getSessionService().getFaceUrl();
@@ -105,6 +108,7 @@
                 <IconButton text="Guilded" icon="guilded" on:click={browseGuilded}/>
                 <IconButton text="Twitter" icon="twitter" on:click={browseTwitter}/>
                 <IconButton text="YouTube" icon="youtube" on:click={browseYouTube}/>
+                <IconButton text="Bilibili" icon="bilibili" on:click={browseBilibili}/>
                 <IconTextButton text="liquidbounce.net" icon="liquidbounce.net" on:click={browseWebsite}/>
             </ButtonWrapperRight>
         </div>
