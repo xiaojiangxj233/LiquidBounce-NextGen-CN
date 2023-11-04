@@ -28,4 +28,4 @@ import net.ccbluex.liquidbounce.features.module.Module
  * Allows attacks only when attack cooldown is fully restored.
  */
 
-object ModulePerfectHit : Module("更好的打击PerfectHit", Category.COMBAT)
+object ModulePerfectHit : Module("PerfectHit", Category.COMBAT)

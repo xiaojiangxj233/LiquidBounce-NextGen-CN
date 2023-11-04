@@ -33,7 +33,7 @@ import net.minecraft.item.ItemGroups
  * Allows you to walk while an inventory is opened.
  */
 
-object ModuleInventoryMove : Module("物品栏移动InventoryMove", Category.MOVEMENT) {
+object ModuleInventoryMove : Module("InventoryMove", Category.MOVEMENT) {
 
     val undetectable by boolean("Undetectable", false)
     val passthroughSneak by boolean("PassthroughSneak", false)

@@ -37,7 +37,7 @@ import kotlin.random.Random
  *
  * Automatically attacks enemy on your crosshair.
  */
-object ModuleTrigger : Module("自动攻击Trigger", Category.COMBAT) {
+object ModuleTrigger : Module("Trigger", Category.COMBAT) {
 
     // CPS means clicks per second
     val cps by intRange("CPS", 5..8, 1..20)

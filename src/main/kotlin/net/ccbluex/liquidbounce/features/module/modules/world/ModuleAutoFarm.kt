@@ -45,7 +45,7 @@ import net.minecraft.world.RaycastContext
  *
  * Automatically farms stuff for you.
  */
-object ModuleAutoFarm : Module("自动农场AutoFarm", Category.WORLD) {
+object ModuleAutoFarm : Module("AutoFarm", Category.WORLD) {
     // TODO Fix this entire module-
     private val range by float("Range", 5F, 1F..6F)
     private val throughWalls by boolean("ThroughWalls", false)

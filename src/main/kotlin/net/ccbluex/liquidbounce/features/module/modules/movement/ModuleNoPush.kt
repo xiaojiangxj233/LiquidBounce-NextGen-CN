@@ -27,4 +27,4 @@ import net.ccbluex.liquidbounce.features.module.Module
  *
  * Disables pushing from other players.
  */
-object ModuleNoPush : Module("不会被推动NoPush", Category.MOVEMENT)
+object ModuleNoPush : Module("NoPush", Category.MOVEMENT)

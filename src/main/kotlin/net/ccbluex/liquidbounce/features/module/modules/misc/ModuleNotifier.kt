@@ -36,7 +36,7 @@ import java.util.*
  *
  * Notifies you about all kinds of events.
  */
-object ModuleNotifier : Module("通知Notifier", Category.MISC) {
+object ModuleNotifier : Module("Notifier", Category.MISC) {
 
     private val joinMessages by boolean("Join Messages", true)
     private val joinMessageFormat by text("Join Message Format", "%s joined")

@@ -88,7 +88,7 @@ import kotlin.random.Random
  *
  * Places blocks under you.
  */
-object ModuleScaffold : Module("自动搭路Scaffold", Category.WORLD) {
+object ModuleScaffold : Module("Scaffold", Category.WORLD) {
     object SimulatePlacementAttempts : ToggleableConfigurable(this, "SimulatePlacementAttempts", false) {
         val cps by intRange("CPS", 5..8, 0..50)
 

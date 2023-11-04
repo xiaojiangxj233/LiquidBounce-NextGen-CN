@@ -44,7 +44,7 @@ import net.minecraft.util.math.Vec3i
  * Allows you to move out of your body.
  */
 
-object ModuleFreeCam : Module("灵魂出窍FreeCam", Category.RENDER) {
+object ModuleFreeCam : Module("FreeCam", Category.RENDER) {
 
     private val speed by float("Speed", 1f, 0.1f..2f)
     private val freeze by boolean("Freeze", false)

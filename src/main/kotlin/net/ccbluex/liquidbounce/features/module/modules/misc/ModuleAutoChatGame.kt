@@ -35,11 +35,11 @@ import kotlin.concurrent.thread
 /**
  * Automatically solves chat game riddles.
  */
-object ModuleAutoChatGame : Module("ChatGPT机器人AutoChatGame", Category.MISC) {
+object ModuleAutoChatGame : Module("AutoChatGame", Category.MISC) {
 
     private val openAiKey by text("OpenAiKey", "")
         .doNotInclude() // Keeps API key private
-    private val model by text("Model", "gpt-3.5-turbo")
+    private val model by text("Model", "gpt-4")
     private val delayResponse by intRange("ReactionTime", 1000..5000, 0..10000)
     private val cooldownMinutes by int("Cooldown", 2, 0..60)
     private val bufferTime by int("BufferTime", 200, 0..500)

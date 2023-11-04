@@ -157,6 +157,7 @@
   "liquidbounce.module.criticals.description": "每次攻击实体的时候自动暴击。",
   "liquidbounce.module.hitbox.description": "扩大实体的攻击碰撞箱。",
   "liquidbounce.module.killAura.description": "自动攻击对方/实体。",
+  "liquidbounce.module.combat.killAura": "杀戮光环",
   "liquidbounce.module.superKnockback.description": "增加对其他实体的击退。",
   "liquidbounce.module.trigger.description": "当指针面对敌人的时候自动攻击。",
   "liquidbounce.module.velocity.description": "改变你的击退程度。",
@@ -252,6 +253,7 @@
   "liquidbounce.module.noHurtCam.description": "在你受到伤害的时候禁止受伤动画。",
   "liquidbounce.module.noSignRender.description": "不渲染牌子上的字。",
   "liquidbounce.module.noSwing.description": "禁止摇摆动画效果。",
+
   "liquidbounce.module.noWeather.description": "防止天气效果影响视线。",
   "liquidbounce.module.rotations.description": "允许你看到服务端层面的旋转。",
   "liquidbounce.module.storageEsp.description": "允许你透过墙看到箱子, 发射器或者其他容器。",
@@ -363,5 +365,19 @@
   "liquidbounce.command.config.subcommand.load.result.failedToLoadOnline": "无法加载在线配置文件名为 %s。",
   "liquidbounce.command.config.subcommand.load.result.loadedOnline": "已加载在线配置文件名为 %s。",
   "liquidbounce.command.config.subcommand.load.result.unresolvedName": "未解析的信息 %s，预期为“local”或“online”。",
-  "liquidbounce.module.clickRecorder.description": "记录您的点击，然后可以被cps-utilizing模块使用。"
+  "liquidbounce.module.clickRecorder.description": "记录您的点击，然后可以被cps-utilizing模块使用。",
+  "liquidbounce.command.config.subcommand.load.result.failedToLoad": "Failed to load online configuration file named %s.",
+  "liquidbounce.command.config.subcommand.load.result.loaded": "Online configuration file named %s has been loaded.",
+  "liquidbounce.command.config.subcommand.list.result.loading": "Loading online configuration files...",
+  "liquidbounce.command.localconfig.subcommand.load.description": "Loads a configuration file.",
+  "liquidbounce.command.localconfig.subcommand.load.parameter.name.description": "Name of the configuration file.",
+  "liquidbounce.command.localconfig.subcommand.load.result.notFound": "Local configuration file named %s does not exist.",
+  "liquidbounce.command.localconfig.subcommand.load.result.failedToLoad": "Failed to load local configuration file named %s.",
+  "liquidbounce.command.localconfig.subcommand.load.result.loaded": "Local configuration file named %s has been loaded.",
+  "liquidbounce.command.localconfig.subcommand.create.parameter.name.description": "Name of the configuration file.",
+  "liquidbounce.command.localconfig.subcommand.create.parameter.overwrite.description": "Overwrite existing configuration file.",
+  "liquidbounce.command.localconfig.subcommand.create.result.failedToCreate": "Failed to create configuration file named %s.",
+  "liquidbounce.command.localconfig.subcommand.create.result.created": "Configuration file named %s has been created.",
+  "liquidbounce.command.localconfig.subcommand.create.result.alreadyExists": "Configuration file named %s already exists.",
+  "liquidbounce.module.iqBoost": "IQBoost"
 }

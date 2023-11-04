@@ -37,7 +37,7 @@ import java.util.concurrent.LinkedBlockingQueue
  * Holds back packets so as to prevent you from being hit by an enemy.
  */
 
-object ModuleBadWifi : Module("坏的无线网BadWifi", Category.COMBAT) {
+object ModuleBadWifi : Module("BadWIFI", Category.COMBAT) {
 
     val maxPacketsInBuffer by intRange("MaxPacketsInBuffer", 20..30, 5..100)
     val enemyRange by float("EnemyRange", 5.0f, 1.0f..10.0f)

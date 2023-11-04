@@ -37,7 +37,7 @@ import net.minecraft.text.Text
  * Allows you to make friends by clicking on them.
  */
 
-object ModuleFriendClicker : Module("点一点加朋友FriendClicker", Category.MISC) {
+object ModuleFriendClicker : Module("FriendClicker", Category.MISC) {
 
     private val pickUpRange by float("PickUpRange", 3.0f, 1f..100f)
 

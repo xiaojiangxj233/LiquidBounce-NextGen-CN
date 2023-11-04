@@ -47,7 +47,7 @@ import java.awt.Color
 import java.util.*
 import kotlin.math.absoluteValue
 
-object ModuleMurderMystery : Module("密室杀手辅助MurderMystery", Category.RENDER) {
+object ModuleMurderMystery : Module("MurderMystery", Category.RENDER) {
     private val bowSkins = HashSet<String>()
     private val murdererSkins = HashSet<String>()
 

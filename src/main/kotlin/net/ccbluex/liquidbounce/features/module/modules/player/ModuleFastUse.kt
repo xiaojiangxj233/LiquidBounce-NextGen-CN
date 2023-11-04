@@ -40,7 +40,7 @@ import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
  * Allows you to use items faster.
  */
 
-object ModuleFastUse : Module("快速使用FastUse", Category.PLAYER) {
+object ModuleFastUse : Module("FastUse", Category.PLAYER) {
 
     private val modes = choices("Mode", Instant, arrayOf(Instant, NCP, AAC, Custom))
     private val noMove by boolean("NoMove", false)

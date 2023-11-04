@@ -31,7 +31,7 @@ import net.ccbluex.liquidbounce.features.module.Module
  *
  * Allows you to jump higher.
  */
-object ModuleHighJump : Module("跳高高HighJump", Category.MOVEMENT) {
+object ModuleHighJump : Module("HighJump", Category.MOVEMENT) {
 
     private val modes = choices(
         "Mode", Vanilla, arrayOf(

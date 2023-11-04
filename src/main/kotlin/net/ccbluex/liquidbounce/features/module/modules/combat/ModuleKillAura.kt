@@ -62,7 +62,7 @@ import kotlin.random.Random
  *
  * Automatically attacks enemies.
  */
-object ModuleKillAura : Module("杀戮光环KillAura", Category.COMBAT) {
+object ModuleKillAura : Module("KillAura", Category.COMBAT) {
 
     // Attack speed
     private val cps by intRange("CPS", 5..8, 1..20)

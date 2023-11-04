@@ -28,7 +28,7 @@ import kotlin.math.max
  * Increases your reach.
  */
 
-object ModuleReach : Module("长臂猿Reach", Category.PLAYER) {
+object ModuleReach : Module("Reach", Category.PLAYER) {
 
     val combatReach by float("CombatReach", 4.2f, 3f..8f)
     val blockReach by float("BlockReach", 5f, 4.5f..8f)

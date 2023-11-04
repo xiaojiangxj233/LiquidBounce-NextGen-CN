@@ -31,7 +31,7 @@ import net.ccbluex.liquidbounce.utils.entity.moving
  * Automatically jumps at the very edge of a block.
  */
 
-object ModuleParkour : Module("跑酷Parkour", Category.MOVEMENT) {
+object ModuleParkour : Module("Parkour", Category.MOVEMENT) {
 
     val edgeDistance by float("EagleEdgeDistance", 0.01f, 0.01f..0.5f)
 

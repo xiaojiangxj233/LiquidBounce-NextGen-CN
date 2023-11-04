@@ -46,7 +46,7 @@ import net.minecraft.util.math.Box
  *
  * Automatically opens chests around you.
  */
-object ModuleChestAura : Module("箱子光环ChestAura", Category.WORLD) {
+object ModuleChestAura : Module("ChestAura", Category.WORLD) {
 
     private val range by float("Range", 5F, 1F..6F)
     private val wallRange by float("WallRange", 0f, 0F..6F).listen {

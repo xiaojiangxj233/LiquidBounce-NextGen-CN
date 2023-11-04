@@ -28,7 +28,7 @@ import net.minecraft.block.Blocks.*
  * Allows you to see ores through walls.
  */
 
-object ModuleXRay : Module("X射线XRay", Category.RENDER) {
+object ModuleXRay : Module("XRay", Category.RENDER) {
 
     // Lighting of blocks through walls
     val fullBright by boolean("FullBright", true)

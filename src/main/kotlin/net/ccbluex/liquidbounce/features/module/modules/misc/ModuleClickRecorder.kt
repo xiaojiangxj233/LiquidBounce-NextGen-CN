@@ -31,7 +31,7 @@ import kotlin.math.roundToInt
  * Records your clicks which then can be used by cps-utilizing modules.
  */
 
-object ModuleClickRecorder : Module("重现点击ClickRecorder", Category.MISC) {
+object ModuleClickRecorder : Module("ClickRecorder", Category.MISC) {
 
     private val reset by boolean("Reset", false).listen {
         clickList.clear()

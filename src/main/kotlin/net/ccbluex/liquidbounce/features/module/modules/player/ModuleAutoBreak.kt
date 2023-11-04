@@ -30,7 +30,7 @@ import net.minecraft.util.hit.HitResult
  *
  * Automatically breaks blocks.
  */
-object ModuleAutoBreak : Module("自动挖掘AutoBreak", Category.PLAYER) {
+object ModuleAutoBreak : Module("AutoBreak", Category.PLAYER) {
 
     private var wasBreaking = false
 

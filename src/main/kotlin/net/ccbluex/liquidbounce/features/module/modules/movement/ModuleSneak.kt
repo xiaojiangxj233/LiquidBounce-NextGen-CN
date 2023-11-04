@@ -36,7 +36,7 @@ import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
  * Automatically sneaks all the time.
  */
 
-object ModuleSneak : Module("蹲下Sneak", Category.MOVEMENT) {
+object ModuleSneak : Module("Sneak", Category.MOVEMENT) {
 
     var modes = choices("Mode", Vanilla, arrayOf(Legit, Vanilla, Switch))
     var stopMove by boolean("StopMove", false)

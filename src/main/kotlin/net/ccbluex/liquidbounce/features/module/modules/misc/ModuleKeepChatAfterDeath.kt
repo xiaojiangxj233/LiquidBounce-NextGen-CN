@@ -32,7 +32,7 @@ import net.minecraft.client.gui.screen.DeathScreen
  *
  * Allows you to use the chat on the death screen.
  */
-object ModuleKeepChatAfterDeath : Module("诈尸聊天KeepChatAfterDeath", Category.MISC) {
+object ModuleKeepChatAfterDeath : Module("KeepChatAfterDeath", Category.MISC) {
 
     val keyboardKeyHandler = handler<KeyboardKeyEvent> {
         if (mc.currentScreen !is DeathScreen) {

@@ -29,7 +29,7 @@ import net.ccbluex.liquidbounce.features.module.Module
  *
  * Prevents you from falling down as if you were sneaking.
  */
-object ModuleSafeWalk : Module("安全行走SafeWalk", Category.MOVEMENT) {
+object ModuleSafeWalk : Module("SafeWalk", Category.MOVEMENT) {
 
     val safeWalkHandler = handler<PlayerSafeWalkEvent> { event ->
         event.isSafeWalk = true

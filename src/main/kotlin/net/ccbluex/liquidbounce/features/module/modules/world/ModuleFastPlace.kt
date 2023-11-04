@@ -28,7 +28,7 @@ import net.ccbluex.liquidbounce.features.module.Module
  *
  * Allows you to place blocks faster.
  */
-object ModuleFastPlace : Module("快速放置FastPlace", Category.WORLD) {
+object ModuleFastPlace : Module("FastPlace", Category.WORLD) {
 
     val cooldown by int("Cooldown", 0, 0..4)
 

@@ -61,7 +61,7 @@ import java.awt.Color
  *
  * Destroys blocks around you.
  */
-object ModuleNuker : Module("自动挖掘Nuker", Category.WORLD, disableOnQuit = true) {
+object ModuleNuker : Module("Nuker", Category.WORLD, disableOnQuit = true) {
 
     val mode = choices("Mode", OneByOne, arrayOf(OneByOne, Nuke))
 

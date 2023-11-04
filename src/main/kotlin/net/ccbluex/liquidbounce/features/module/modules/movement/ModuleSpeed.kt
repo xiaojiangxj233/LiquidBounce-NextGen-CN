@@ -36,7 +36,7 @@ import net.minecraft.entity.MovementType
  * Allows you to move faster.
  */
 
-object ModuleSpeed : Module("加速Speed", Category.MOVEMENT) {
+object ModuleSpeed : Module("Speed", Category.MOVEMENT) {
 
     private val modes = choices(
         "Mode", SpeedYPort, arrayOf(

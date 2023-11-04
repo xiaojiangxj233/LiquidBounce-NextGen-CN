@@ -35,7 +35,7 @@ import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
  * Allows you to fly through blocks.
  */
 
-object ModuleNoClip : Module("飞着穿墙NoClip", Category.MOVEMENT) {
+object ModuleNoClip : Module("NoClip", Category.MOVEMENT) {
 
     val speed by float("Speed", 0.32f, 0.1f..0.4f)
 

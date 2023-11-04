@@ -27,6 +27,6 @@ import net.ccbluex.liquidbounce.features.module.Module
  * Disables the swing effect.
  */
 
-object ModuleNoSwing : Module("无挥动动画NoSwing", Category.RENDER) {
+object ModuleNoSwing : Module("NoSwing", Category.RENDER) {
     val serverSide by boolean("ServerSide", false)
 }

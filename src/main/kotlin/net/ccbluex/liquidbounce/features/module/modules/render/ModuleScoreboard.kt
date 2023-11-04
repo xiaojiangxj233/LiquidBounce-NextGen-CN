@@ -24,7 +24,7 @@ import net.ccbluex.liquidbounce.features.module.Category
 import net.ccbluex.liquidbounce.features.module.Module
 import net.ccbluex.liquidbounce.utils.render.AlignmentConfigurable
 
-object ModuleScoreboard : Module("分数栏Scoreboard", Category.RENDER) {
+object ModuleScoreboard : Module("Scoreboard", Category.RENDER) {
 
     val turnOff by boolean("TurnOff", false)
     val alignment =

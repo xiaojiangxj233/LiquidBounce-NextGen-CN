@@ -32,7 +32,7 @@ import net.minecraft.util.hit.HitResult
  * Clicks automatically when holding down a mouse button.
  */
 
-object ModuleAutoClicker : Module("自动点击器(AutoClicker)", Category.COMBAT) {
+object ModuleAutoClicker : Module("AutoClicker", Category.COMBAT) {
 
     object Left : ToggleableConfigurable(this, "Left", true) {
         val cps by intRange("CPS", 5..8, 1..20)

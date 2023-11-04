@@ -30,7 +30,7 @@ import kotlin.random.Random
  *
  * Spams the chat with a given message.
  */
-object ModuleSpammer : Module("刷屏Spammer", Category.MISC) {
+object ModuleSpammer : Module("Spammer", Category.MISC) {
 
     private val delay by intRange("Delay", 12..14, 0..300)
     private val message by text("Message",

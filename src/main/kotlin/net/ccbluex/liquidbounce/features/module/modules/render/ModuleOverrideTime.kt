@@ -29,7 +29,7 @@ import net.ccbluex.liquidbounce.features.module.Module
  * Override the time visual effect
  */
 
-object ModuleOverrideTime : Module("覆盖时间OverrideTime", Category.RENDER) {
+object ModuleOverrideTime : Module("OverrideTime", Category.RENDER) {
 
     val time = enumChoice("Time", TimeType.NOON, TimeType.values())
 

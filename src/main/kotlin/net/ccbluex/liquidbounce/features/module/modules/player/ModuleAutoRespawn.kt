@@ -29,7 +29,7 @@ import net.minecraft.client.gui.screen.DeathScreen
  *
  * Automatically respawns the player after dying.
  */
-object ModuleAutoRespawn : Module("自动重生AutoRespawn", Category.PLAYER) {
+object ModuleAutoRespawn : Module("AutoRespawn", Category.PLAYER) {
 
     // There is a delay until the button is clickable on the death screen (20 ticks)
     private val delay by int("Delay", 0, 0..20)

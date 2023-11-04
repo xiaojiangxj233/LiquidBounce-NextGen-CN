@@ -44,7 +44,7 @@ import kotlin.math.sqrt
  * Draws a line to every entity a certain radius.
  */
 
-object ModuleTracers : Module("示踪Tracers", Category.RENDER) {
+object ModuleTracers : Module("Tracers", Category.RENDER) {
 
     private val modes = choices(
         "ColorMode",

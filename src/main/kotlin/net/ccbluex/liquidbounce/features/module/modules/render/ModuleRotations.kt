@@ -40,7 +40,7 @@ import net.minecraft.util.Pair
  * Allows you to see server-sided rotations.
  */
 
-object ModuleRotations : Module("转头Rotations", Category.RENDER) {
+object ModuleRotations : Module("Rotations", Category.RENDER) {
 
     val showRotationVector by boolean("ShowRotationVector", false)
     val pov by boolean("POV", false)

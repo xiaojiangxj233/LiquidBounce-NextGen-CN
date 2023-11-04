@@ -39,7 +39,7 @@ import net.minecraft.network.packet.s2c.play.PlayerRemoveS2CPacket
 import java.util.*
 import kotlin.math.abs
 
-object ModuleAntiBot : Module("不打机器人AntiBot", Category.MISC) {
+object ModuleAntiBot : Module("AntiBot", Category.MISC) {
 
     private val modes = choices("Mode", Custom, arrayOf(Custom, Matrix, IntaveHeavy, Horizon))
     private val literalNPC by boolean("LiteralNPC", false)

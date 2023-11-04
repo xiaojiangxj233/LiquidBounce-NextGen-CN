@@ -40,7 +40,7 @@ import java.util.concurrent.Executors
  * Shows you from which player a tamable entity or projectile belongs to.
  */
 
-object ModuleMobOwners : Module("动物的主人MobOwners", Category.RENDER) {
+object ModuleMobOwners : Module("MobOwners", Category.RENDER) {
 
     val projectiles by boolean("Projectiles", false)
 

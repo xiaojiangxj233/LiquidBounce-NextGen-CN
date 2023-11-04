@@ -27,6 +27,6 @@ import net.ccbluex.liquidbounce.features.module.Module
  * Changes FOV value.
  */
 
-object ModuleNoFov : Module("改变视角NoFov", Category.RENDER) {
+object ModuleNoFov : Module("NoFOV", Category.RENDER) {
     val fov by float("FOV", 1f, 0f..1.5f)
 }

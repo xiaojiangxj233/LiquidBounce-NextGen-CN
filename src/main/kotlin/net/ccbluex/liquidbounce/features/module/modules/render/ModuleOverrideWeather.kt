@@ -29,7 +29,7 @@ import net.ccbluex.liquidbounce.features.module.Module
  * Override the weather visual effect
  */
 
-object ModuleOverrideWeather : Module("天气之子OverrideWeather", Category.RENDER) {
+object ModuleOverrideWeather : Module("OverrideWeather", Category.RENDER) {
 
     val weather = enumChoice("Weather", WeatherType.SUNNY, WeatherType.values())
 

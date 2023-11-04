@@ -31,7 +31,7 @@ import net.ccbluex.liquidbounce.utils.entity.strafe
  *
  * Fly with your vehicle.
  */
-object ModuleVehicleFly : Module("和载具一起飞ModuleVehicleFly", Category.MOVEMENT) {
+object ModuleVehicleFly : Module("VehicleFly", Category.MOVEMENT) {
 
     val speedVertical by float("Vertical", 0.32f, 0.1f..0.4f)
     val speedHorizontal by float("Horizontal", 0.48f, 0.1f..0.4f)

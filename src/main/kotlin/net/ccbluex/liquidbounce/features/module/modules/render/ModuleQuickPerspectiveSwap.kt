@@ -27,7 +27,7 @@ import net.ccbluex.liquidbounce.utils.client.chat
 import net.minecraft.client.util.InputUtil
 import org.lwjgl.glfw.GLFW
 
-object ModuleQuickPerspectiveSwap : Module("快速透视图交换QuickPerspectiveSwap", Category.RENDER) {
+object ModuleQuickPerspectiveSwap : Module("QuickPerspectiveSwap", Category.RENDER) {
 
     private val onUpdate = handler<WorldRenderEvent> {
         if (!InputUtil.isKeyPressed(mc.window.handle, bind)) {

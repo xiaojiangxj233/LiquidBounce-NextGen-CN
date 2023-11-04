@@ -37,7 +37,7 @@ import net.minecraft.util.Hand
  * Automatically catches fish when using a rod.
  */
 
-object ModuleAutoFish : Module("自动钓鱼AutoFish", Category.PLAYER) {
+object ModuleAutoFish : Module("AutoFish", Category.PLAYER) {
 
     private val reelDelay by intRange("ReelDelay", 5..8, 0..20)
 

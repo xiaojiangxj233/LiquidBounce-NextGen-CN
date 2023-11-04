@@ -32,7 +32,7 @@ import net.ccbluex.liquidbounce.features.module.Module
  * If they are not willing to contribute, please do not add the animation to this module.
  */
 
-object ModuleAnimation : Module("动画Animation", Category.RENDER) {
+object ModuleAnimation : Module("Animations", Category.RENDER) {
 
     init {
         tree(MainHand)

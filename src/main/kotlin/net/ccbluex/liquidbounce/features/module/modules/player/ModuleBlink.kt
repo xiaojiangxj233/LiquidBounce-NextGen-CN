@@ -50,7 +50,7 @@ import java.util.concurrent.atomic.AtomicInteger
  * Makes it look as if you were teleporting to other players.
  */
 
-object ModuleBlink : Module("瞬移Blink", Category.PLAYER) {
+object ModuleBlink : Module("Blink", Category.PLAYER) {
     private object Pulse : ToggleableConfigurable(this, "Pulse", false) {
         val delay by int("Delay", 20, 10..100)
     }

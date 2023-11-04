@@ -29,7 +29,7 @@ import net.ccbluex.liquidbounce.utils.aiming.RotationsConfigurable
  *
  * Prevents the server from rotating your head.
  */
-object ModuleNoRotateSet : Module("防旋转NoRotateSet", Category.PLAYER) {
+object ModuleNoRotateSet : Module("NoRotateSet", Category.PLAYER) {
     val mode = choices(
         "Mode", SilentAccept, arrayOf(
             SilentAccept, ResetRotation

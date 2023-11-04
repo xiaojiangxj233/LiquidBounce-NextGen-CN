@@ -31,7 +31,7 @@ import net.minecraft.util.shape.VoxelShapes
  * Allows you to walk on non-fullblock blocks.
  */
 
-object ModuleBlockWalk : Module("不完整方块行走BlockWalk", Category.MOVEMENT) {
+object ModuleBlockWalk : Module("BlockWalk", Category.MOVEMENT) {
 
     private val blocks by blocks("Blocks", hashSetOf(Blocks.COBWEB, Blocks.SNOW))
 

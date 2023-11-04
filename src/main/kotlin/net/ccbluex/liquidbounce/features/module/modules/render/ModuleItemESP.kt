@@ -38,7 +38,7 @@ import net.minecraft.util.math.Box
  * Allows you to see dropped items through walls.
  */
 
-object ModuleItemESP : Module("物品ESP|ItemESP", Category.RENDER) {
+object ModuleItemESP : Module("ItemESP", Category.RENDER) {
 
     override val translationBaseKey: String
         get() = "liquidbounce.module.itemEsp"

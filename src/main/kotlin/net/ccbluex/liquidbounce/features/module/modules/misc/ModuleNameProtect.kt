@@ -38,7 +38,7 @@ import net.minecraft.text.TextColor
  * Changes players names clientside.
  */
 
-object ModuleNameProtect : Module("名字保护器NameProtect", Category.MISC) {
+object ModuleNameProtect : Module("NameProtect", Category.MISC) {
 
     val replacement by text("Replacement", "You")
 

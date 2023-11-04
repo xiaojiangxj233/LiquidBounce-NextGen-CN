@@ -35,7 +35,7 @@ import net.minecraft.screen.slot.SlotActionType
  * Automatically places a totem in off-hand.
  */
 
-object ModuleAutoTotem : Module("自动图腾AutoTotem", Category.PLAYER) {
+object ModuleAutoTotem : Module("AutoTotem", Category.PLAYER) {
 
     val repeatable = repeatable {
         val offHandStack = player.offHandStack

@@ -35,7 +35,7 @@ import net.minecraft.item.Items
  * Makes you fly faster on Elytra.
  */
 
-object ModuleElytraFly : Module("更好的鞘翅飞行ElytraFly", Category.MOVEMENT) {
+object ModuleElytraFly : Module("ElytraFly", Category.MOVEMENT) {
 
     private val instant by boolean("Instant", true)
     private object Speed : ToggleableConfigurable(this, "Speed", true) {

@@ -52,7 +52,7 @@ import kotlin.math.abs
  * Protects you from taking fall damage.
  */
 
-object ModuleNoFall : Module("无摔落伤害NoFall", Category.PLAYER) {
+object ModuleNoFall : Module("NoFall", Category.PLAYER) {
 
     private val modes = choices(
         "Mode", SpoofGround, arrayOf(

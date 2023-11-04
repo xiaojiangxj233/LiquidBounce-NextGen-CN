@@ -36,7 +36,7 @@ import net.minecraft.world.explosion.Explosion
 import kotlin.math.floor
 import kotlin.math.sqrt
 
-object ModuleCrystalAura : Module("水晶光环CrystalAura", Category.WORLD) {
+object ModuleCrystalAura : Module("CrystalAura", Category.WORLD) {
     val swing by boolean("Swing", true)
 
     internal object PlaceOptions : ToggleableConfigurable(this, "Place", true) {
