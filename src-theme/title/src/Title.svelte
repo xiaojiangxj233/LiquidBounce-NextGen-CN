@@ -95,7 +95,7 @@
             </MainButtons>
 
             <ButtonWrapperLeft>
-                <IconTextButton text="设置背景图片" icon="change-background"/>
+                <IconTextButton text="设置背景图片" icon="change-background" on:click={openCustomize}/>
                 <IconTextButton text="退出" icon="exit" on:click={scheduleStop}/>
             </ButtonWrapperLeft>
 

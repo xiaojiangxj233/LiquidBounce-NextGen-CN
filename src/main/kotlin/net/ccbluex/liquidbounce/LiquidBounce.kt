@@ -63,7 +63,7 @@ object LiquidBounce : Listenable {
     const val CLIENT_AUTHOR = "xiaojiang233"
     const val CLIENT_CLOUD = "https://cloud.liquidbounce.net/LiquidBounce"
 
-    val clientVersion = gitInfo["git.build.version"]?.toString() ?: "unknown"
+    val clientVersion = "1.0"
     val clientCommit = gitInfo["git.commit.id.abbrev"]?.let { "git-$it" } ?: "unknown"
     val clientBranch = gitInfo["git.branch"]?.toString() ?: "nextgen"
 
@@ -72,7 +72,7 @@ object LiquidBounce : Listenable {
      *
      * TODO: Replace this approach with full semantic versioning.
      */
-    const val IN_DEVELOPMENT = true
+    const val IN_DEVELOPMENT = false
 
     /**
      * Client logger to print out console messages
